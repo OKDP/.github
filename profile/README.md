@@ -1,12 +1,19 @@
-## Hi there 👋
+<div align="center">
+  <img src="https://raw.githubusercontent.com/OKDP/OKDP/main/logo/inverted/okdp-inverted.png" alt="OKDP Logo" width="320" />
 
-<!--
+  <br/>
 
-**Here are some ideas to get you started:**
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Website](https://img.shields.io/badge/website-okdp.io-informational)](https://okdp.io)
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+</div>
+
+---
+
+**OKDP (Open Kubernetes Data Platform)** is a modular, open-source data platform built for Kubernetes.
+Deploy only what you need: Apache Spark, Hive Metastore, Trino, Superset, Airflow, JupyterHub, each as a standalone Helm chart or as a complete, OIDC-secured stack.
+
+- **Try it** → [okdp-sandbox](https://github.com/OKDP/okdp-sandbox): deploy the full stack in minutes
+- **Install** → [helm-handbook](https://github.com/OKDP/helm-handbook): Helm chart install guides and values
+- **Learn more** → [OKDP/OKDP](https://github.com/OKDP/OKDP): component inventory and governance
+- **Contribute** → see our [Contributing Guide](https://github.com/OKDP/.github/blob/main/CONTRIBUTING.md)
