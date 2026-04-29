@@ -1,0 +1,112 @@
+name: Bug Report
+description: Report a bug in an OKDP component
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!WARNING]
+        > **Security vulnerability?** Do not open a public issue.
+        > Please use [GitHub's private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability) on the affected repository instead.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which OKDP component is affected?
+      options:
+        - okdp-server / okdp-ui (Control Plane)
+        - okdp-sandbox
+        - spark-images
+        - spark-history-server
+        - spark-web-proxy
+        - okdp-spark-auth-filter
+        - hive-metastore
+        - okdp-superset
+        - jupyterlab-docker
+        - okdp-examples
+        - okdp.io (website)
+        - gh-workflows
+        - OKDP/OKDP (governance / docs)
+        - .github (org-wide templates)
+        - Other / Multiple
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: A clear description of what the bug is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to Reproduce
+      description: List the exact steps to trigger the bug.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      value: |
+        **Kubernetes version**
+        <details>
+
+        ```console
+        $ kubectl version --short
+        # paste output here
+        ```
+
+        </details>
+
+        **Helm version**
+        <details>
+
+        ```console
+        $ helm version
+        # paste output here
+        ```
+
+        </details>
+
+        **Chart / component version:**
+
+        **Cluster setup (Kind version, node count, any custom config):**
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste relevant logs here.
+      render: shell
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Anything else we need to know?
+      description: Workarounds you found, related issues, hypotheses about the root cause, or any other context that might help.
