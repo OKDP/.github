@@ -1,0 +1,62 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > **Proposing a significant change?** Open a [GitHub Discussion](https://github.com/orgs/OKDP/discussions) first.
+        > Large features benefit from community alignment before becoming a tracked issue.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which OKDP component does this relate to?
+      options:
+        - okdp-server / okdp-ui (Control Plane)
+        - okdp-sandbox
+        - spark-images
+        - spark-history-server
+        - spark-web-proxy
+        - okdp-spark-auth-filter
+        - hive-metastore
+        - okdp-superset
+        - jupyterlab-docker
+        - okdp-examples
+        - okdp.io (website)
+        - gh-workflows
+        - OKDP/OKDP (governance / docs)
+        - .github (org-wide templates)
+        - Other / Multiple
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution you'd like.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions you've considered.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other context, screenshots, or references.
