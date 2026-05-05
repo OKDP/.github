@@ -71,7 +71,7 @@ chore: bump cert-manager to v1.17.1
 - If your work is still in progress, open a **Draft PR**. This allows early feedback and makes your work visible to the team without triggering a formal review. Convert it to a regular PR when it is ready.
 - **All PRs must be linked to an issue**. If no relevant issue exists, open one before submitting your PR. Trivial fixes (typos, broken links) may skip this.
 - Bug fixes and minor changes require at least 1 maintainer approval
-- Feature PRs and documentation PRs are reviewed and approved at the **TOSIT Contributors Meeting**. Please plan your submissions accordingly
+- Feature PRs and documentation PRs are reviewed and approved at the **TOSIT OKDP Contributors Meeting**. Please plan your submissions accordingly
 - All CI checks must pass if configured
 - Keep PRs focused: one concern per PR. If your PR touches multiple unrelated things, split it.
 - Keep PRs under 500 lines of meaningful changes where possible. If your PR is larger, explain in the description why it cannot be split. Large PRs that are difficult to review may be sent back for splitting.
