@@ -41,6 +41,7 @@ The default workflow for everyone is fork-based:
 **Keeping your fork up to date:**
 
 ```sh
+git remote add upstream https://github.com/OKDP/<repo>.git # if remote does not exist
 git fetch upstream
 git checkout main
 git merge upstream/main
