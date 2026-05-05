@@ -17,3 +17,5 @@ Deploy only what you need: Apache Spark, Hive Metastore, Trino, Superset, Airflo
 - **Install** → [helm-handbook](https://github.com/OKDP/helm-handbook): Helm chart install guides and values
 - **Learn more** → [OKDP/OKDP](https://github.com/OKDP/OKDP): component inventory and governance
 - **Contribute** → see our [Contributing Guide](https://github.com/OKDP/.github/blob/main/CONTRIBUTING.md)
+
+OKDP is backed by the [TOSIT](https://tosit.io/) association.
