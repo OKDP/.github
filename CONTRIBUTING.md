@@ -10,18 +10,6 @@ Thank you for your interest in contributing to OKDP!
 - Use the provided issue templates (bug report, feature request)
 - For security vulnerabilities, see [SECURITY.md](SECURITY.md)
 
-### Contributing Documentation
-
-The helm-handbook contains two types of guides:
-
-- **Full-stack deployment guide** (`README.md`): end-to-end installation covering all modules in order
-- **Prerequisites guide** (`modules/prerequisites/README.md`): infrastructure umbrella chart and post-install steps
-
-When contributing:
-- Keep each guide focused on its scope (full-stack or prerequisites)
-- Use the provided PR template
-- Values files must contain real, working values, no placeholders
-
 ### Contributing Code
 
 The workflow depends on the visibility of the target repository.
@@ -75,8 +63,10 @@ chore: bump cert-manager to v1.17.1
 - All CI checks must pass if configured
 - Keep PRs focused: one concern per PR. If your PR touches multiple unrelated things, split it.
 - Keep PRs under 500 lines of meaningful changes where possible. If your PR is larger, explain in the description why it cannot be split. Large PRs that are difficult to review may be sent back for splitting.
-- During review, address feedback by adding new commits. Do not rewrite history or force-push. This preserves reviewer context.
+- During review, address feedback by adding new commits. Do not rewrite history or force-push. This preserves reviewer context. If you plan to` squash` later, you can use` git commit --fixup`.
 - Once your PR is approved, **squash your commits** into meaningful units and **rebase your branch** on top of the latest `main`. Then use `git push --force-with-lease` to update the PR before merge.
+
+> **Tip:** If you have been using `git commit --fixup` during review, you can run `git rebase --autosquash` to squash automatically.
 
 ## Getting Help
 
