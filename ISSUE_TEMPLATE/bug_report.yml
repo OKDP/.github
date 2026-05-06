@@ -9,30 +9,6 @@ body:
         > **Security vulnerability?** Do not open a public issue.
         > Please use [GitHub's private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability) on the affected repository instead.
 
-  - type: dropdown
-    id: component
-    attributes:
-      label: Component
-      description: Which OKDP component is affected?
-      options:
-        - okdp-server / okdp-ui (Control Plane)
-        - okdp-sandbox
-        - spark-images
-        - spark-history-server
-        - spark-web-proxy
-        - okdp-spark-auth-filter
-        - hive-metastore
-        - okdp-superset
-        - jupyterlab-docker
-        - okdp-examples
-        - okdp.io (website)
-        - gh-workflows
-        - OKDP/OKDP (governance / docs)
-        - .github (org-wide templates)
-        - Other / Multiple
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:

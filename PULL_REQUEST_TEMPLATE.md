@@ -33,3 +33,5 @@ Fixes #
 - [ ] Documentation updated if needed
 - [ ] All CI checks pass if configured
 - [ ] If breaking change: migration path described above
+- [ ] I hereby declare this contribution to be licensed under the [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+- [ ] I hereby agree to grant [TOSIT](https://www.tosit.io/) a copyright license to use my contributions.
