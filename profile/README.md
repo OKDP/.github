@@ -12,9 +12,8 @@
 
 **OKDP (Open Kubernetes Data Platform)** is a modular, open-source data platform built for Kubernetes.
 Deploy only what you need: Apache Spark, Hive Metastore, Trino, Superset, Airflow, JupyterHub, each as a standalone Helm chart or as a complete, OIDC-secured stack.
-
+<!--TODO: add link to `helm-handbook` repo once it is public --> 
 - **Try it** → [okdp-sandbox](https://github.com/OKDP/okdp-sandbox): deploy the full stack in minutes
-- **Install** → [helm-handbook](https://github.com/OKDP/helm-handbook): Helm chart install guides and values
 - **Learn more** → [OKDP/OKDP](https://github.com/OKDP/OKDP): component inventory and governance
 - **Contribute** → see our [Contributing Guide](https://github.com/OKDP/.github/blob/main/CONTRIBUTING.md)
 
