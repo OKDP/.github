@@ -24,14 +24,13 @@ Fixes #
 ## How to Test
 
 <!-- Steps a reviewer can follow to manually verify this change -->
+<!-- TODO: replace CONTRIBUTING.md feature branch link to main once merged -->
 
 ## Checklist
 
-- [ ] I have read [CONTRIBUTING.md](https://github.com/OKDP/.github/blob/main/CONTRIBUTING.md)
-- [ ] Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/)
+- [ ] I have read [CONTRIBUTING.md](https://github.com/jpmewenemesse/.github/blob/feat/added-contributing-file/CONTRIBUTING.md)
 - [ ] I have tested my changes
 - [ ] Documentation updated if needed
-- [ ] All CI checks pass if configured
 - [ ] If breaking change: migration path described above
 - [ ] I hereby declare this contribution to be licensed under the [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 - [ ] I hereby agree to grant [TOSIT](https://www.tosit.io/) a copyright license to use my contributions.

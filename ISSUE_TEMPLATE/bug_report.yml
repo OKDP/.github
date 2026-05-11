@@ -52,7 +52,7 @@ body:
         <details>
 
         ```console
-        $ kubectl version --short
+        $ kubectl version
         # paste output here
         ```
 
