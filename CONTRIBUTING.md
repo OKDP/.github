@@ -6,9 +6,10 @@ Thank you for your interest in contributing to OKDP!
 
 ### Reporting Issues
 
+<!-- TODO: once SECURITY.md is merged, replace this feature branch link to the relative path -->
 - Use GitHub Issues on the relevant repository
 - Use the provided issue templates (bug report, feature request)
-- For security vulnerabilities, see [SECURITY.md](SECURITY.md)
+- For security vulnerabilities, see [SECURITY.md](https://github.com/jpmewenemesse/.github/blob/5c7157ad899e1219b1e3d1fbd8b69d57d9dbad78/SECURITY.md)
 
 ### Contributing Code
 
@@ -56,6 +57,8 @@ chore: bump cert-manager to v1.17.1
 
 ### Pull Request Process
 
+Before opening a PR, you can browse [all open OKDP pull requets](https://github.com/pulls?user=OKDP) for a cross-repo overview. 
+
 - If your work is still in progress, open a **Draft PR**. This allows early feedback and makes your work visible to the team without triggering a formal review. Convert it to a regular PR when it is ready.
 - **All PRs must be linked to an issue**. If no relevant issue exists, open one before submitting your PR. Trivial fixes (typos, broken links) may skip this.
 - Bug fixes and minor changes require at least 1 maintainer approval
@@ -77,7 +80,6 @@ For questions, ideas, or technical discussions, use [OKDP GitHub Discussions](ht
 | Repository                                                  | What to Contribute                             |
 | ----------------------------------------------------------- | ---------------------------------------------- |
 | [OKDP/OKDP](https://github.com/OKDP/OKDP)                   | Project-level docs, governance, roadmap        |
-| [OKDP/helm-handbook](https://github.com/OKDP/helm-handbook) | Helm chart install guides and values           |
 | [OKDP/okdp-sandbox](https://github.com/OKDP/okdp-sandbox)   | Sandbox environment                            |
 | OKDP/hive-metastore, spark-history-server, etc.             | Module source code, Helm charts, Docker images |
 
@@ -89,4 +91,5 @@ Before your first contribution can be merged, you must sign the OKDP CLA (one-ti
 
 ## Code of Conduct
 
-This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
+<!-- TODO: replace CODE_OF_CONDUCT.md link with the relative path once the PR is merged -->
+This project follows the [Contributor Covenant Code of Conduct](https://github.com/jpmewenemesse/.github/blob/ded9f3fa2ab8f489e68f968f4104e4597d5ab469/CODE_OF_CONDUCT.md).
