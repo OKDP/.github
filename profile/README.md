@@ -18,6 +18,6 @@ Deploy only what you need: Apache Spark, Hive Metastore, Trino, Superset, Airflo
 --> 
 - **Try it** → [okdp-sandbox](https://github.com/OKDP/okdp-sandbox): deploy the full stack in minutes
 - **Learn more** → [OKDP/OKDP](https://github.com/OKDP/OKDP): component inventory and governance
-- **Contribute** → see our [Contributing Guide](https://github.com/jpmewenemesse/.github/blob/feat/added-contributing-file/CONTRIBUTING.md)
+<!-- - **Contribute** → see our [Contributing Guide](https://github.com/OKDP/.github/blob/main/CONTRIBUTING.md) -->
 
 OKDP is backed by the [TOSIT](https://tosit.io/) association.
