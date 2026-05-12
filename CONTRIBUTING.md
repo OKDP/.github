@@ -1,0 +1,95 @@
+# Contributing to OKDP
+
+Thank you for your interest in contributing to OKDP!
+
+## How to Contribute
+
+### Reporting Issues
+
+<!-- TODO: once SECURITY.md is merged, replace this feature branch link to the relative path -->
+- Use GitHub Issues on the relevant repository
+- Use the provided issue templates (bug report, feature request)
+- For security vulnerabilities, see [SECURITY.md](https://github.com/jpmewenemesse/.github/blob/5c7157ad899e1219b1e3d1fbd8b69d57d9dbad78/SECURITY.md)
+
+### Contributing Code
+
+The workflow depends on the visibility of the target repository.
+
+#### Public repositories (open-source contribution)
+
+The default workflow for everyone is fork-based:
+
+1. **Fork** the repository on GitHub
+2. Clone your fork and create a feature branch from `main`
+3. Make your changes
+4. Ensure CI passes, if configured (lint, tests, build)
+5. Submit a Pull Request from your fork to the upstream `main`
+
+> **Maintainers only (urgent/quick fixes):** maintainers may create a branch directly in the upstream repository instead of forking, but only for time-sensitive changes. The fork-based workflow remains the default for all other contributions.
+
+**Keeping your fork up to date:**
+
+```sh
+git remote add upstream https://github.com/OKDP/<repo>.git # if remote does not exist
+git fetch upstream
+git checkout main
+git merge upstream/main
+git push origin main
+```
+
+#### Private repositories (internal team contribution)
+
+1. Create a branch **directly from `main`** in the repository (no fork needed)
+2. Make your changes
+3. Ensure CI passes, if configured (lint, tests, build)
+4. Submit a Pull Request to `main`
+
+### Commit Messages
+
+Follow [Conventional Commits](https://www.conventionalcommits.org/):
+
+```
+feat: add OIDC support for Trino
+fix: correct S3 endpoint in hive-metastore values
+docs: update airflow INSTALL.md with gitSync config
+chore: bump cert-manager to v1.17.1
+```
+
+### Pull Request Process
+
+Before opening a PR, you can browse [all open OKDP pull requets](https://github.com/pulls?user=OKDP) for a cross-repo overview. 
+
+- If your work is still in progress, open a **Draft PR**. This allows early feedback and makes your work visible to the team without triggering a formal review. Convert it to a regular PR when it is ready.
+- **All PRs must be linked to an issue**. If no relevant issue exists, open one before submitting your PR. Trivial fixes (typos, broken links) may skip this.
+- Bug fixes and minor changes require at least 1 maintainer approval
+- Feature PRs and documentation PRs are reviewed and approved at the **TOSIT OKDP Contributors Meeting**. Please plan your submissions accordingly
+- All CI checks must pass if configured
+- Keep PRs focused: one concern per PR. If your PR touches multiple unrelated things, split it.
+- Keep PRs under 500 lines of meaningful changes where possible. If your PR is larger, explain in the description why it cannot be split. Large PRs that are difficult to review may be sent back for splitting.
+- During review, address feedback by adding new commits. Do not rewrite history or force-push. This preserves reviewer context. If you plan to` squash` later, you can use` git commit --fixup`.
+- Once your PR is approved, **squash your commits** into meaningful units and **rebase your branch** on top of the latest `main`. Then use `git push --force-with-lease` to update the PR before merge.
+
+> **Tip:** If you have been using `git commit --fixup` during review, you can run `git rebase --autosquash` to squash automatically.
+
+## Getting Help
+
+For questions, ideas, or technical discussions, use [OKDP GitHub Discussions](https://github.com/orgs/OKDP/discussions).
+
+## Repository Map
+
+| Repository                                                  | What to Contribute                             |
+| ----------------------------------------------------------- | ---------------------------------------------- |
+| [OKDP/OKDP](https://github.com/OKDP/OKDP)                   | Project-level docs, governance, roadmap        |
+| [OKDP/okdp-sandbox](https://github.com/OKDP/okdp-sandbox)   | Sandbox environment                            |
+| OKDP/hive-metastore, spark-history-server, etc.             | Module source code, Helm charts, Docker images |
+
+## Contributor License Agreement (CLA)
+
+Before your first contribution can be merged, you must sign the OKDP CLA (one-time requirement).
+
+<!-- TODO: add link to CLA signing process once finalized -->
+
+## Code of Conduct
+
+<!-- TODO: replace CODE_OF_CONDUCT.md link with the relative path once the PR is merged -->
+This project follows the [Contributor Covenant Code of Conduct](https://github.com/jpmewenemesse/.github/blob/ded9f3fa2ab8f489e68f968f4104e4597d5ab469/CODE_OF_CONDUCT.md).
