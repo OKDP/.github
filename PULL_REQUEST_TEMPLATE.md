@@ -28,7 +28,7 @@ Fixes #
 
 ## Checklist
 
-- [ ] I have read [CONTRIBUTING.md](https://github.com/jpmewenemesse/.github/blob/feat/added-contributing-file/CONTRIBUTING.md)
+<!-- - [ ] I have read [CONTRIBUTING.md](https://github.com/OKDP/.github/blob/main/CONTRIBUTING.md) -->
 - [ ] I have tested my changes
 - [ ] Documentation updated if needed
 - [ ] If breaking change: migration path described above
