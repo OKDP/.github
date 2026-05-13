@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/orgs/OKDP/discussions
+    about: Questions, ideas, and general discussions; ask here before opening an issue.
+
+  - name: OKDP Documentation
+    url: https://okdp.io
+    about: Check the official docs and roadmap before opening an issue.
