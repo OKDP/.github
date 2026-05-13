@@ -9,7 +9,7 @@ Thank you for your interest in contributing to OKDP!
 <!-- TODO: once SECURITY.md is merged, replace this feature branch link to the relative path -->
 - Use GitHub Issues on the relevant repository
 - Use the provided issue templates (bug report, feature request)
-- For security vulnerabilities, see [SECURITY.md](https://github.com/jpmewenemesse/.github/blob/5c7157ad899e1219b1e3d1fbd8b69d57d9dbad78/SECURITY.md)
+<!--- For security vulnerabilities, see [SECURITY.md](https://github.com/OKDP/.github/blob/main/SECURITY.md) -->
 
 ### Contributing Code
 
@@ -92,4 +92,4 @@ Before your first contribution can be merged, you must sign the OKDP CLA (one-ti
 ## Code of Conduct
 
 <!-- TODO: replace CODE_OF_CONDUCT.md link with the relative path once the PR is merged -->
-This project follows the [Contributor Covenant Code of Conduct](https://github.com/jpmewenemesse/.github/blob/ded9f3fa2ab8f489e68f968f4104e4597d5ab469/CODE_OF_CONDUCT.md).
+<!-- This project follows the [Contributor Covenant Code of Conduct](https://github.com/OKDP/.github/blob/main/CODE_OF_CONDUCT.md). -->
